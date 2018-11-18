@@ -1,0 +1,7 @@
+[client]
+url = "http://127.0.0.1:8545"
+pubKey = "0xb4e03964d285c77d881049f91bcff8e15d5c8488"
+privKey = "0x1b952de68980de9b9fdb2d178cdc2bb022a566e9d8d68f296f1860b7ed0ab87d"
+
+[contract]
+address = "0xbd2bdd73a07291ca7e84452fef2145dda265fd9c"
