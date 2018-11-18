@@ -21,4 +21,4 @@ build:
 
 .PHONY: clean
 clean:
-	rm -rf $(CONTRACT).go $(CONTRACT).abi $(CONTRACT).bin $(BINARY)
+	rm -rf $(CONTRACT).abi $(CONTRACT).bin $(BINARY)
