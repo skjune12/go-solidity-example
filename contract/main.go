@@ -41,7 +41,7 @@ func LoadConfigulation() *Config {
 	// Load Configuration
 	viper := viper.New()
 	viper.SetConfigName("config")
-	viper.AddConfigPath("$GOPATH/src/github.com/skjune12/ethtest/contract")
+	viper.AddConfigPath("$GOPATH/src/github.com/skjune12/go-solidiy-example/contract")
 
 	if err := viper.ReadInConfig(); err != nil {
 		fmt.Println("Couldn't load config:", err)
