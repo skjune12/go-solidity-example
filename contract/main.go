@@ -37,7 +37,7 @@ var (
 	write  = flag.Bool("write", false, "Whether to write data to contract")
 )
 
-func LoadConfigulation() *Config {
+func LoadConfiguration() *Config {
 	// Load Configuration
 	viper := viper.New()
 	viper.SetConfigName("config")
@@ -63,7 +63,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	config := LoadConfigulation()
+	config := LoadConfiguration()
 	flag.Parse()
 
 	client, err := ethclient.Dial(config.Client.Url)
